@@ -1,68 +1,7 @@
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)
-![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
-![Packagist](https://img.shields.io/badge/Pytorch-0.4.1-red.svg)
-![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/AttentionGAN)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/AttentionGAN/graphs/commit-activity))
-![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
-![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
-
 # AttentionGAN-v2 for Unpaired Image-to-Image Translation
 
 ## AttentionGAN-v2 Framework
 The proposed generator learns both foreground and background attentions. It uses the foreground attention to select from the generated output for the foreground regions, while uses the background attention to maintain the background information from the input image. Please refer to our papers for more details.
-
-![Framework](./imgs/framework.jpg)
-
-## Comparsion with State-of-the-Art Methods
-### Selfie To Anime Translation
-![Result](./imgs/selfie_results.jpg)
-
-### Horse to Zebra Translation
-![Result](./imgs/h2z_comparsion2.jpg)
-<br>
-![Result](./imgs/h2z_comparsion3.jpg)
-
-### Zebra to Horse  Translation
-![Result](./imgs/z2h_comparsion.jpg)
-
-### Apple to Orange Translation
-![Result](./imgs/a2o_comparsion.jpg)
-
-### Orange to Apple  Translation
-![Result](./imgs/o2a_comparsion.jpg)
-
-### Map to Aerial Photo Translation
-![Result](./imgs/m2l_comparison.jpg)
-
-### Aerial Photo to Map Translation
-![Result](./imgs/l2m_comparison.jpg)
-
-### Style Transfer
-![Result](./imgs/style_transfer_results.jpg)
-
-## Visualization of Learned Attention Masks  
-### Selfie to Anime Translation
-![Result](./imgs/selfie_attention.jpg)
-
-### Horse to Zebra Translation
-![Attention](./imgs/h2z_attention_maps.jpg)
-
-### Zebra to Horse Translation
-![Attention](./imgs/z2h_attention_maps.jpg)
-
-### Apple to Orange Translation
-![Attention](./imgs/a2o_attention_maps.jpg)
-
-### Orange to Apple  Translation
-![Attention](./imgs/o2a_attention_maps.jpg)
-
-### Map to Aerial Photo Translation
-![Attention](./imgs/l2m_attention_maps.jpg)
-
-### Aerial Photo to Map Translation
-![Attention](./imgs/m2l_attention_maps.jpg)
-
-### [Extended Paper](https://arxiv.org/abs/1911.11897) | [Conference Paper](https://arxiv.org/abs/1903.12296)
 
 AttentionGAN: Unpaired Image-to-Image Translation using Attention-Guided Generative Adversarial Networks.<br>
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Hong Liu](https://scholar.google.com/citations?user=4CQKG8oAAAAJ&hl=en)<sup>2</sup>, [Dan Xu](http://www.robots.ox.ac.uk/~danxu/)<sup>3</sup>, [Philip H.S. Torr](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en)<sup>3</sup> and [Nicu Sebe](http://disi.unitn.it/~sebe/)<sup>1</sup>. <br> 
@@ -103,10 +42,13 @@ Clone this repo.
 git clone https://github.com/Ha0Tang/AttentionGAN
 cd AttentionGAN/
 ```
+pip3 install --upgrade pip setuptools wheel
+pip3 install pandas -i https://pypi.mirrors.ustc.edu.cn/simple/
 
 This code requires PyTorch 0.4.1+ and python 3.6.9+. Please install dependencies by
 ```bash
-pip install -r requirements.txt (for pip users)
+pip3 install -r requirements.txt (for pip users)
+pip3 install scipy
 ```
 or 
 

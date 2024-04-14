@@ -15,14 +15,6 @@ The repository offers the official implementation of our paper in PyTorch.
 #### Are you looking for AttentionGAN-v1 for Multi-Domain Image-to-Image Translation?
 > [Paper](https://arxiv.org/abs/1903.12296) | [Code](./AttentionGAN-v1-multi)
 
-##### Facial Expression-to-Expression Translation
-![Result](./imgs/RaFD_results.jpg)
-Order: The Learned Attention Masks, The Learned Content Masks, Final Results
-
-##### Facial Attribute Transfer
-![Attention](./imgs/celeba_attention.jpg)
-Order: The Learned Attention Masks, The Learned Content Masks, Final Result
-
 ### [License](./LICENSE.md)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
 Copyright (C) 2019 University of Trento, Italy.

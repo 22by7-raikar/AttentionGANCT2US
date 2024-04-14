@@ -51,13 +51,15 @@ To reproduce the results reported in the paper, you would need an NVIDIA Tesla V
 Download the datasets using the following script. Please cite their paper if you use the data. Try twice if it fails the first time!
 ```
 sh ./datasets/download_cyclegan_dataset.sh dataset_name
+```
+https://drive.google.com/file/d/1yMuSQm_lLmO9Xsua1pVJQsZyHW6sP_DZ/view?usp=sharing
 
 ### For the CT to US dataset
 
 Change permissions
+```
 chmod +x download_from_gdrive.sh
 ./download_from_gdrive.sh https://drive.google.com/file/d/abcd/view?usp=sharing
-
 ```
 The selfie2anime dataset can be download [here](https://drive.google.com/file/d/1xOWj1UVgp6NKMT3HbPhBbtq2A4EDkghF/view).
 

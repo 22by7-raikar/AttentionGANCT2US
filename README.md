@@ -58,12 +58,10 @@ https://drive.google.com/file/d/1yMuSQm_lLmO9Xsua1pVJQsZyHW6sP_DZ/view?usp=shari
 
 ### For the CT to US dataset
 
-Change permissions
+Transfer the datasets from CT to US
 ```
-chmod +x download_from_gdrive.sh
-./download_from_gdrive.sh https://drive.google.com/file/d/abcd/view?usp=sharing
+scp /home/anuj/Anuj/ctuscyclegan/ct2us.zip apairaikar@turing.wpi.edu://home/apairaikar/AttentionGANCT2US/datasets/
 ```
-The selfie2anime dataset can be download [here](https://drive.google.com/file/d/1xOWj1UVgp6NKMT3HbPhBbtq2A4EDkghF/view).
 
 ## AttentionGAN Training/Testing
 - Download a dataset using the previous script (e.g., horse2zebra).

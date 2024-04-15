@@ -61,6 +61,7 @@ https://drive.google.com/file/d/1yMuSQm_lLmO9Xsua1pVJQsZyHW6sP_DZ/view?usp=shari
 Transfer the datasets from CT to US
 ```
 scp /home/anuj/Anuj/ctuscyclegan/ct2us.zip apairaikar@turing.wpi.edu://home/apairaikar/AttentionGANCT2US/datasets/
+unzip /home/apairaikar/AttentionGANCT2US/datasets/ct2us.zip -d /home/apairaikar/AttentionGANCT2US/datasets/ct2us
 ```
 
 ## AttentionGAN Training/Testing
